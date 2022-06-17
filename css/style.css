@@ -1,0 +1,17 @@
+h2 {
+  color: blue;
+  -webkit-animation: myMultiColor 2s;
+  animation: myMultiColor 2s;
+ }
+
+ /* Safari 4.0 - 8.0 */
+ @-webkit-keyframes myMultiColor {
+  from {color: blue;}
+  to {color: green;}
+ }
+
+ /* Standard syntax */
+ @keyframes myMultiColor {
+  from {color: blue;}
+  to {color: green;}
+ }
